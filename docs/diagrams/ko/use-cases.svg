@@ -58,7 +58,7 @@
     <g>
       <ellipse cx="718" cy="305" rx="231" ry="43" fill="#EEE8F8" stroke="#202832" stroke-width="2.5" />
       <text x="718" y="304" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="22" font-weight="650" text-anchor="middle" fill="#202832">일반 영상을 ASCII로 변환</text>
-      <text x="718" y="329" font-family="DejaVu Sans Mono, monospace" font-size="16" font-weight="450" text-anchor="middle" fill="#455362">hachiware.py</text>
+      <text x="718" y="329" font-family="DejaVu Sans Mono, monospace" font-size="16" font-weight="450" text-anchor="middle" fill="#455362">render.py</text>
     </g>
     <g>
       <ellipse cx="718" cy="423" rx="231" ry="43" fill="#EEE8F8" stroke="#202832" stroke-width="2.5" />
@@ -68,7 +68,7 @@
     <g>
       <ellipse cx="718" cy="542" rx="231" ry="43" fill="#F0F2D8" stroke="#202832" stroke-width="2.5" />
       <text x="718" y="541" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="22" font-weight="650" text-anchor="middle" fill="#202832">QHD 코드 영상 합성</text>
-      <text x="718" y="566" font-family="DejaVu Sans Mono, monospace" font-size="16" font-weight="450" text-anchor="middle" fill="#455362">hachiware_code_qhd.py</text>
+      <text x="718" y="566" font-family="DejaVu Sans Mono, monospace" font-size="16" font-weight="450" text-anchor="middle" fill="#455362">compose.py</text>
     </g>
     <g>
       <ellipse cx="718" cy="657" rx="208" ry="37" fill="#E0F2E9" stroke="#202832" stroke-width="2.5" />

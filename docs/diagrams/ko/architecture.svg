@@ -33,7 +33,7 @@
     <rect x="741" y="207" width="651" height="244" rx="18" fill="#F9E8F0" stroke="#202832" stroke-width="2.5" />
     <text x="760" y="243" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="23" font-weight="700" text-anchor="start" fill="#853F65">소스 코드 패널</text>
     <rect x="48" y="499" width="1344" height="209" rx="18" fill="#F0F2D8" stroke="#202832" stroke-width="2.5" />
-    <text x="720" y="536" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#505F26">QHD 합성 · hachiware_code_qhd.py</text>
+    <text x="720" y="536" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#505F26">QHD 합성 · compose.py</text>
   </g>
   <g id="connections">
     <polyline points="313,347 369,347" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
@@ -46,19 +46,19 @@
   <g id="nodes">
     <g>
       <rect x="66" y="288" width="247" height="118" rx="12" fill="#BCE2D1" stroke="#202832" stroke-width="2.5" />
-      <text x="82" y="340.0" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="690" text-anchor="start" fill="#202832">hachiware_source.mp4</text>
+      <text x="82" y="340.0" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="690" text-anchor="start" fill="#202832">source.mp4</text>
       <text x="82" y="369.0" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="18" font-weight="450" text-anchor="start" fill="#455362">컬러 영상 + 원본 오디오</text>
     </g>
     <g>
       <rect x="369" y="288" width="311" height="118" rx="12" fill="#FFFFFF" stroke="#202832" stroke-width="2.5" />
-      <text x="385" y="326.0" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="690" text-anchor="start" fill="#202832">hachiware.py</text>
+      <text x="385" y="326.0" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="690" text-anchor="start" fill="#202832">render.py</text>
       <text x="385" y="355.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="450" text-anchor="start" fill="#455362">episode_frames()</text>
       <text x="385" y="384.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="450" text-anchor="start" fill="#455362">ascii_grid.write_frames()</text>
     </g>
     <g>
       <rect x="761" y="288" width="254" height="118" rx="12" fill="#FFFFFF" stroke="#202832" stroke-width="2.5" />
       <text x="777" y="326.0" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="22" font-weight="690" text-anchor="start" fill="#202832">패널에 표시할 소스 파일</text>
-      <text x="777" y="355.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="450" text-anchor="start" fill="#455362">hachiware.py</text>
+      <text x="777" y="355.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="450" text-anchor="start" fill="#455362">render.py</text>
       <text x="777" y="384.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="450" text-anchor="start" fill="#455362">ascii_grid.py</text>
     </g>
     <g>
@@ -69,7 +69,7 @@
     </g>
     <g>
       <rect x="88" y="566" width="362" height="100" rx="12" fill="#BCE2D1" stroke="#202832" stroke-width="2.5" />
-      <text x="104" y="609.0" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="690" text-anchor="start" fill="#202832">hachiware_full.mp4</text>
+      <text x="104" y="609.0" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="690" text-anchor="start" fill="#202832">master.mp4</text>
       <text x="104" y="638.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="450" text-anchor="start" fill="#455362">1080 × 1232 · 30 fps</text>
     </g>
     <g>
@@ -77,7 +77,7 @@
       <text x="719.0" y="584.0" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="690" text-anchor="middle" fill="#202832">FFmpeg · hstack</text>
       <text x="719.0" y="613.0" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="18" font-weight="450" text-anchor="middle" fill="#455362">H.264 영상 + 원본 AAC</text>
       <text x="719.0" y="642.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="450" text-anchor="middle" fill="#455362">2560 × 1440 · 16:9</text>
-      <text x="719.0" y="671.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="450" text-anchor="middle" fill="#455362">hachiware_code_qhd.mp4</text>
+      <text x="719.0" y="671.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="450" text-anchor="middle" fill="#455362">film.mp4</text>
     </g>
     <g>
       <rect x="990" y="566" width="357" height="100" rx="12" fill="#EDCADC" stroke="#202832" stroke-width="2.5" />

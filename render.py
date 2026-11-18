@@ -1,7 +1,7 @@
 """컬러 영상을 하치와레 스타일의 ASCII 애니메이션으로 변환한다.
 
-    python hachiware.py input.mp4 hachiware.mp4
-    python hachiware.py --episode-11 hachiware_source.mp4 hachiware_full.mp4
+    python render.py input.mp4 ascii.mp4
+    python render.py --episode-11 source.mp4 master.mp4
 """
 
 import argparse

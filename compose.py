@@ -1,9 +1,9 @@
 """하치와레 ASCII와 실제 소스를 함께 보여 주는 16:9 QHD 영상.
 
-    python hachiware_code_qhd.py
-    python hachiware_code_qhd.py hachiware_full.mp4 another_cut.mp4
+    python compose.py
+    python compose.py master.mp4 another_cut.mp4
 
-같은 폴더의 hachiware.py와 ascii_grid.py를 읽는다. NumPy, Pillow, FFmpeg가
+같은 폴더의 render.py와 ascii_grid.py를 읽는다. NumPy, Pillow, FFmpeg가
 필요하다. 기본 오디오는 입력 영상에 담긴 한국어판 노래와 대사, 효과음을 그대로 사용한다.
 별도의 녹음으로 교체하려면 --voice 녹음.wav 를 지정한다.
 """
@@ -47,7 +47,7 @@ KOREAN = ("NotoSansKR-VF.ttf", "NotoSansCJK-Regular.ttc", "malgun.ttf")
 class Cue:
     frame: int
     lines: tuple
-    file: str = "hachiware.py"
+    file: str = "render.py"
 
 
 def lines(first, last):
@@ -343,8 +343,8 @@ def render(movie, output, voice=None):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("movie", type=Path, nargs="?", default=HERE / "hachiware_full.mp4")
-    parser.add_argument("output", type=Path, nargs="?", default=HERE / "hachiware_code_qhd.mp4")
+    parser.add_argument("movie", type=Path, nargs="?", default=HERE / "master.mp4")
+    parser.add_argument("output", type=Path, nargs="?", default=HERE / "film.mp4")
     parser.add_argument("--voice", type=Path, help="직접 녹음한 해설 트랙")
     args = parser.parse_args()
     render(args.movie, args.output, args.voice)
