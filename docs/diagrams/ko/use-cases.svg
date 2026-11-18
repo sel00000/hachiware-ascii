@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1440" viewBox="0 0 1440 810" role="img" aria-labelledby="title desc" lang="ko">
+  <title id="title">제작자가 명령행에서 할 수 있는 일</title>
+  <desc id="desc">명령행에서 세 가지 작업을 실행할 수 있다. QHD 영상의 오디오는 별도 녹음으로 바꿀 수 있다.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse" viewBox="-1 -1 13 12">
+      <path d="M0,0 L10,5 L0,10 z" fill="#202832" stroke="#202832" stroke-width="1.5" stroke-linejoin="round" />
+    </marker>
+    <marker id="open" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse" viewBox="-1 -1 13 12">
+      <path d="M1,0 L10,5 L1,10" fill="none" stroke="#202832" stroke-width="1.5" stroke-linejoin="round" />
+    </marker>
+  </defs>
+  <g id="page">
+    <rect x="0" y="0" width="1440" height="810" rx="0" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="48" y="46" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="17" font-weight="700" text-anchor="start" fill="#202832">하치와레 ASCII</text>
+    <text x="1392" y="46" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="19" font-weight="650" text-anchor="end" fill="#455362">유스케이스 다이어그램</text>
+    <text x="46" y="105" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="42" font-weight="740" text-anchor="start" fill="#202832">제작자가 명령행에서 할 수 있는 일</text>
+    <text x="48" y="147" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="21" font-weight="450" text-anchor="start" fill="#455362">명령행에서 세 가지 작업을 실행할 수 있다. QHD 영상의 오디오는 별도 녹음으로 바꿀 수 있다.</text>
+    <line x1="48" y1="171" x2="1392" y2="171" stroke="#8D9895" stroke-width="1.7" />
+    <line x1="48" y1="739" x2="1392" y2="739" stroke="#202832" stroke-width="1.9" />
+    <rect x="48" y="761" width="25" height="20" rx="4" fill="#BCE2D1" stroke="#202832" stroke-width="1.9" />
+    <text x="86" y="778" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">입력·원본 음원</text>
+    <rect x="389" y="761" width="25" height="20" rx="4" fill="#D9C9ED" stroke="#202832" stroke-width="1.9" />
+    <text x="427" y="778" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">ASCII 변환</text>
+    <rect x="730" y="761" width="25" height="20" rx="4" fill="#EDCADC" stroke="#202832" stroke-width="1.9" />
+    <text x="768" y="778" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">코드 표시</text>
+    <rect x="1071" y="761" width="25" height="20" rx="4" fill="#DDE6AD" stroke="#202832" stroke-width="1.9" />
+    <text x="1109" y="778" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">합성·출력</text>
+  </g>
+  <g id="groups">
+    <rect x="347" y="204" width="748" height="507" rx="18" fill="#F9F8F4" stroke="#202832" stroke-width="2.5" />
+    <text x="372" y="241" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="23" font-weight="700" text-anchor="start" fill="#202832">하치와레 명령행 렌더러</text>
+  </g>
+  <g id="connections">
+    <polyline points="263,305 487,305" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="949,305 1178,305" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="263,423 487,423" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="949,423 1178,423" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="263,542 487,542" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="949,542 1178,542" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="175,391 263,391" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="263,305 263,542" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="1178,305 1178,542" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="1178,391 1261,391" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="718,620 718,586" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#open)" stroke-dasharray="8 7" />
+  </g>
+  <g id="nodes">
+    <circle cx="139" cy="351" r="19" fill="#BCE2D1" stroke="#202832" stroke-width="2.8" />
+    <polyline points="139,370 139,433" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="103,391 175,391" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="110,468 139,433 168,468" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <text x="139" y="501" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="23" font-weight="660" text-anchor="middle" fill="#202832">제작자</text>
+    <circle cx="1297" cy="351" r="19" fill="#DDE6AD" stroke="#202832" stroke-width="2.8" />
+    <polyline points="1297,370 1297,433" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="1261,391 1333,391" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="1268,468 1297,433 1326,468" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <text x="1297" y="501" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="23" font-weight="660" text-anchor="middle" fill="#202832">FFmpeg 도구</text>
+    <g>
+      <ellipse cx="718" cy="305" rx="231" ry="43" fill="#EEE8F8" stroke="#202832" stroke-width="2.5" />
+      <text x="718" y="304" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="22" font-weight="650" text-anchor="middle" fill="#202832">일반 영상을 ASCII로 변환</text>
+      <text x="718" y="329" font-family="DejaVu Sans Mono, monospace" font-size="16" font-weight="450" text-anchor="middle" fill="#455362">hachiware.py</text>
+    </g>
+    <g>
+      <ellipse cx="718" cy="423" rx="231" ry="43" fill="#EEE8F8" stroke="#202832" stroke-width="2.5" />
+      <text x="718" y="422" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="22" font-weight="650" text-anchor="middle" fill="#202832">11화 ASCII 마스터 제작</text>
+      <text x="718" y="447" font-family="DejaVu Sans Mono, monospace" font-size="16" font-weight="450" text-anchor="middle" fill="#455362">--episode-11</text>
+    </g>
+    <g>
+      <ellipse cx="718" cy="542" rx="231" ry="43" fill="#F0F2D8" stroke="#202832" stroke-width="2.5" />
+      <text x="718" y="541" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="22" font-weight="650" text-anchor="middle" fill="#202832">QHD 코드 영상 합성</text>
+      <text x="718" y="566" font-family="DejaVu Sans Mono, monospace" font-size="16" font-weight="450" text-anchor="middle" fill="#455362">hachiware_code_qhd.py</text>
+    </g>
+    <g>
+      <ellipse cx="718" cy="657" rx="208" ry="37" fill="#E0F2E9" stroke="#202832" stroke-width="2.5" />
+      <text x="718" y="656" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="22" font-weight="650" text-anchor="middle" fill="#202832">별도 녹음 사용</text>
+      <text x="718" y="681" font-family="DejaVu Sans Mono, monospace" font-size="16" font-weight="450" text-anchor="middle" fill="#455362">--voice</text>
+    </g>
+  </g>
+  <g id="labels">
+    <rect x="752.0" y="595" width="102" height="24" rx="4" fill="#F9F8F4" stroke="none" stroke-width="2.5" />
+    <text x="803" y="611" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#455362">«extend»</text>
+  </g>
+</svg>

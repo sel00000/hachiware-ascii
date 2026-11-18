@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1440" viewBox="0 0 1440 810" role="img" aria-labelledby="title desc" lang="en">
+  <title id="title">How a cue identifies real source lines</title>
+  <desc id="desc">The in-memory model uses filenames, line numbers and cue start frames as keys.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse" viewBox="-1 -1 13 12">
+      <path d="M0,0 L10,5 L0,10 z" fill="#202832" stroke="#202832" stroke-width="1.5" stroke-linejoin="round" />
+    </marker>
+    <marker id="open" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse" viewBox="-1 -1 13 12">
+      <path d="M1,0 L10,5 L1,10" fill="none" stroke="#202832" stroke-width="1.5" stroke-linejoin="round" />
+    </marker>
+  </defs>
+  <g id="page">
+    <rect x="0" y="0" width="1440" height="810" rx="0" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="48" y="46" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="start" fill="#202832">HACHIWARE ASCII</text>
+    <text x="1392" y="46" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="650" text-anchor="end" fill="#455362">Logical ER diagram</text>
+    <text x="46" y="105" font-family="DejaVu Sans, sans-serif" font-size="42" font-weight="740" text-anchor="start" fill="#202832">How a cue identifies real source lines</text>
+    <text x="48" y="147" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="450" text-anchor="start" fill="#455362">The in-memory model uses filenames, line numbers and cue start frames as keys.</text>
+    <line x1="48" y1="171" x2="1392" y2="171" stroke="#8D9895" stroke-width="1.7" />
+    <line x1="48" y1="739" x2="1392" y2="739" stroke="#202832" stroke-width="1.9" />
+    <rect x="48" y="761" width="25" height="20" rx="4" fill="#BCE2D1" stroke="#202832" stroke-width="1.9" />
+    <text x="86" y="778" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">Input and audio</text>
+    <rect x="389" y="761" width="25" height="20" rx="4" fill="#D9C9ED" stroke="#202832" stroke-width="1.9" />
+    <text x="427" y="778" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">ASCII conversion</text>
+    <rect x="730" y="761" width="25" height="20" rx="4" fill="#EDCADC" stroke="#202832" stroke-width="1.9" />
+    <text x="768" y="778" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">Code display</text>
+    <rect x="1071" y="761" width="25" height="20" rx="4" fill="#DDE6AD" stroke="#202832" stroke-width="1.9" />
+    <text x="1109" y="778" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">Composition and output</text>
+  </g>
+  <g id="groups" />
+  <g id="connections">
+    <polyline points="506,296 867,296" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="286,384 286,519" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="1106,384 1106,519" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="506,605 867,605" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+  </g>
+  <g id="nodes">
+    <g>
+      <rect x="74" y="210" width="432" height="174" rx="12" fill="white" stroke="#202832" stroke-width="2.5" />
+      <rect x="75.5" y="211.5" width="429" height="44" rx="10" fill="#BCE2D1" stroke="none" stroke-width="2.5" />
+      <rect x="75.5" y="243" width="429" height="14" rx="0" fill="#BCE2D1" stroke="none" stroke-width="2.5" />
+      <line x1="74" y1="257" x2="506" y2="257" stroke="#202832" stroke-width="2" />
+      <text x="91" y="242" font-family="DejaVu Sans Mono, monospace" font-size="23" font-weight="700" text-anchor="start" fill="#202832">Source file</text>
+      <text x="91" y="289" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">Key · filename</text>
+      <text x="91" y="317" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">Editor.sources[file]</text>
+    </g>
+    <g>
+      <rect x="867" y="210" width="470" height="174" rx="12" fill="white" stroke="#202832" stroke-width="2.5" />
+      <rect x="868.5" y="211.5" width="467" height="44" rx="10" fill="#EDCADC" stroke="none" stroke-width="2.5" />
+      <rect x="868.5" y="243" width="467" height="14" rx="0" fill="#EDCADC" stroke="none" stroke-width="2.5" />
+      <line x1="867" y1="257" x2="1337" y2="257" stroke="#202832" stroke-width="2" />
+      <text x="884" y="242" font-family="DejaVu Sans Mono, monospace" font-size="23" font-weight="700" text-anchor="start" fill="#202832">Source line</text>
+      <text x="884" y="289" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">Key · filename + line number</text>
+      <text x="884" y="317" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">Source.text[n]  ·  Source.styles[n]</text>
+    </g>
+    <g>
+      <rect x="74" y="519" width="432" height="175" rx="12" fill="white" stroke="#202832" stroke-width="2.5" />
+      <rect x="75.5" y="520.5" width="429" height="44" rx="10" fill="#EDCADC" stroke="none" stroke-width="2.5" />
+      <rect x="75.5" y="552" width="429" height="14" rx="0" fill="#EDCADC" stroke="none" stroke-width="2.5" />
+      <line x1="74" y1="566" x2="506" y2="566" stroke="#202832" stroke-width="2" />
+      <text x="91" y="551" font-family="DejaVu Sans Mono, monospace" font-size="23" font-weight="700" text-anchor="start" fill="#202832">Scene cue</text>
+      <text x="91" y="598" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">Key · start frame</text>
+      <text x="91" y="626" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">Cue.frame  ·  Cue.file</text>
+    </g>
+    <g>
+      <rect x="867" y="519" width="470" height="175" rx="12" fill="white" stroke="#202832" stroke-width="2.5" />
+      <rect x="868.5" y="520.5" width="467" height="44" rx="10" fill="#EDCADC" stroke="none" stroke-width="2.5" />
+      <rect x="868.5" y="552" width="467" height="14" rx="0" fill="#EDCADC" stroke="none" stroke-width="2.5" />
+      <line x1="867" y1="566" x2="1337" y2="566" stroke="#202832" stroke-width="2" />
+      <text x="884" y="551" font-family="DejaVu Sans Mono, monospace" font-size="23" font-weight="700" text-anchor="start" fill="#202832">Focus entry</text>
+      <text x="884" y="598" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">Key · start frame + ordinal</text>
+      <text x="884" y="626" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">Cue.lines[i] → source line</text>
+    </g>
+  </g>
+  <g id="labels">
+    <rect x="581.0" y="260" width="206" height="25" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="684" y="277" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="#455362">A file contains lines</text>
+    <text x="519" y="322" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="650" text-anchor="start" fill="#202832">1</text>
+    <text x="811" y="322" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="650" text-anchor="start" fill="#202832">1..*</text>
+    <rect x="317.5" y="441" width="229" height="25" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="432" y="458" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="#455362">File targeted by a cue</text>
+    <text x="298" y="409" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="650" text-anchor="start" fill="#202832">1</text>
+    <text x="299" y="507" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="650" text-anchor="start" fill="#202832">0..*</text>
+    <rect x="1145.0" y="441" width="206" height="24" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="1248" y="457" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#455362">Reusable source line</text>
+    <text x="1117" y="409" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="650" text-anchor="start" fill="#202832">1</text>
+    <text x="1117" y="507" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="650" text-anchor="start" fill="#202832">0..*</text>
+    <rect x="593.0" y="571" width="188" height="25" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="687" y="588" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="#455362">Read in cue order</text>
+    <text x="519" y="633" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="650" text-anchor="start" fill="#202832">1</text>
+    <text x="811" y="633" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="650" text-anchor="start" fill="#202832">1..*</text>
+  </g>
+</svg>

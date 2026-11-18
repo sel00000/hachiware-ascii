@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1440" viewBox="0 0 1440 810" role="img" aria-labelledby="title desc" lang="ko">
+  <title id="title">프레임 번호에 따라 장면을 그리는 법</title>
+  <desc id="desc">episode_frames()는 한국어판 11화의 각 장면을 프레임 번호 n에 맞춰 그린다. 번호는 0부터 센다.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse" viewBox="-1 -1 13 12">
+      <path d="M0,0 L10,5 L0,10 z" fill="#202832" stroke="#202832" stroke-width="1.5" stroke-linejoin="round" />
+    </marker>
+    <marker id="open" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse" viewBox="-1 -1 13 12">
+      <path d="M1,0 L10,5 L1,10" fill="none" stroke="#202832" stroke-width="1.5" stroke-linejoin="round" />
+    </marker>
+  </defs>
+  <g id="page">
+    <rect x="0" y="0" width="1440" height="810" rx="0" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="48" y="46" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="17" font-weight="700" text-anchor="start" fill="#202832">하치와레 ASCII</text>
+    <text x="1392" y="46" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="19" font-weight="650" text-anchor="end" fill="#455362">활동 다이어그램</text>
+    <text x="46" y="105" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="42" font-weight="740" text-anchor="start" fill="#202832">프레임 번호에 따라 장면을 그리는 법</text>
+    <text x="48" y="147" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="21" font-weight="450" text-anchor="start" fill="#455362">episode_frames()는 한국어판 11화의 각 장면을 프레임 번호 n에 맞춰 그린다. 번호는 0부터 센다.</text>
+    <line x1="48" y1="171" x2="1392" y2="171" stroke="#8D9895" stroke-width="1.7" />
+    <line x1="48" y1="739" x2="1392" y2="739" stroke="#202832" stroke-width="1.9" />
+    <rect x="48" y="761" width="25" height="20" rx="4" fill="#BCE2D1" stroke="#202832" stroke-width="1.9" />
+    <text x="86" y="778" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">입력·원본 음원</text>
+    <rect x="389" y="761" width="25" height="20" rx="4" fill="#D9C9ED" stroke="#202832" stroke-width="1.9" />
+    <text x="427" y="778" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">ASCII 변환</text>
+    <rect x="730" y="761" width="25" height="20" rx="4" fill="#EDCADC" stroke="#202832" stroke-width="1.9" />
+    <text x="768" y="778" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">코드 표시</text>
+    <rect x="1071" y="761" width="25" height="20" rx="4" fill="#DDE6AD" stroke="#202832" stroke-width="1.9" />
+    <text x="1109" y="778" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">합성·출력</text>
+  </g>
+  <g id="groups" />
+  <g id="connections">
+    <polyline points="720,199 720,216" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+    <polyline points="560,270 241,270 241,381" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+    <polyline points="720,324 720,373" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+    <polyline points="880,270 1199,270 1199,381" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+    <polyline points="720,475 720,501" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+    <polyline points="869,547 959,547" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+    <polyline points="1100,578 1100,632 731,632" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+    <polyline points="720,593 720,623" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+    <polyline points="242,469 242,632 709,632" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+    <polyline points="1268,469 1268,632 1100,632" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" />
+    <polyline points="720,641 720,659" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+  </g>
+  <g id="nodes">
+    <circle cx="720" cy="191" r="7" fill="#202832" />
+    <polygon points="560,270 720,216 880,270 720,324" stroke="#202832" stroke-width="2.5" fill="#D9C9ED" stroke-linejoin="round" />
+    <text x="720" y="277" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="19" font-weight="650" text-anchor="middle" fill="#202832">프레임 n은 어느 구간인가?</text>
+    <g>
+      <rect x="74" y="381" width="337" height="88" rx="12" fill="#D9C9ED" stroke="#202832" stroke-width="2.5" />
+      <text x="242.5" y="418.0" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="22" font-weight="690" text-anchor="middle" fill="#202832">타이틀 카드</text>
+      <text x="242.5" y="447.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="450" text-anchor="middle" fill="#455362">card_frame(credits=False)</text>
+    </g>
+    <g>
+      <rect x="500" y="373" width="440" height="102" rx="12" fill="#D9C9ED" stroke="#202832" stroke-width="2.5" />
+      <text x="720.0" y="403.0" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="22" font-weight="690" text-anchor="middle" fill="#202832">본편 장면</text>
+      <text x="720.0" y="432.0" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="18" font-weight="450" text-anchor="middle" fill="#455362">장면이 바뀌면 prev 초기화</text>
+      <text x="720.0" y="461.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="450" text-anchor="middle" fill="#455362">letters() → pixels()</text>
+    </g>
+    <g>
+      <rect x="1035" y="381" width="329" height="88" rx="12" fill="#D9C9ED" stroke="#202832" stroke-width="2.5" />
+      <text x="1199.5" y="418.0" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="22" font-weight="690" text-anchor="middle" fill="#202832">크레딧 카드</text>
+      <text x="1199.5" y="447.0" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="450" text-anchor="middle" fill="#455362">card_frame(credits=True)</text>
+    </g>
+    <polygon points="571,547 720,501 869,547 720,593" stroke="#202832" stroke-width="2.5" fill="#D9C9ED" stroke-linejoin="round" />
+    <text x="720" y="554" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="650" text-anchor="middle" fill="#202832">n ≥ 1700?</text>
+    <g>
+      <rect x="959" y="517" width="282" height="61" rx="12" fill="#D9C9ED" stroke="#202832" stroke-width="2.5" />
+      <text x="1100.0" y="554.5" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="690" text-anchor="middle" fill="#202832">end_caption()</text>
+    </g>
+    <polygon points="708,632 720,623 732,632 720,641" fill="#D9C9ED" stroke="#202832" stroke-width="2" />
+    <g>
+      <rect x="561" y="659" width="318" height="52" rx="12" fill="#DDE6AD" stroke="#202832" stroke-width="2.5" />
+      <text x="720.0" y="692.0" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="22" font-weight="690" text-anchor="middle" fill="#202832">ASCII 프레임 반환</text>
+    </g>
+  </g>
+  <g id="labels">
+    <rect x="363.0" y="246" width="62" height="25" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="394" y="263" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="#455362">0–89</text>
+    <rect x="742.0" y="336" width="98" height="25" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="791" y="353" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="#455362">90–1801</text>
+    <rect x="989.0" y="246" width="122" height="25" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="1050" y="263" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="#455362">1802–2700</text>
+    <rect x="896.0" y="519" width="34" height="25" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="913" y="536" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="#455362">예</text>
+    <rect x="734.5" y="601" width="65" height="25" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="767" y="618" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="#455362">아니요</text>
+  </g>
+</svg>

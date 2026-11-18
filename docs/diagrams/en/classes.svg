@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1440" viewBox="0 0 1440 810" role="img" aria-labelledby="title desc" lang="en">
+  <title id="title">Four types behind the code panel</title>
+  <desc id="desc">Solid arrows denote stored references. The dashed arrow denotes an initialization dependency.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse" viewBox="-1 -1 13 12">
+      <path d="M0,0 L10,5 L0,10 z" fill="#202832" stroke="#202832" stroke-width="1.5" stroke-linejoin="round" />
+    </marker>
+    <marker id="open" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse" viewBox="-1 -1 13 12">
+      <path d="M1,0 L10,5 L1,10" fill="none" stroke="#202832" stroke-width="1.5" stroke-linejoin="round" />
+    </marker>
+  </defs>
+  <g id="page">
+    <rect x="0" y="0" width="1440" height="810" rx="0" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="48" y="46" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="start" fill="#202832">HACHIWARE ASCII</text>
+    <text x="1392" y="46" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="650" text-anchor="end" fill="#455362">Class diagram</text>
+    <text x="46" y="105" font-family="DejaVu Sans, sans-serif" font-size="42" font-weight="740" text-anchor="start" fill="#202832">Four types behind the code panel</text>
+    <text x="48" y="147" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="450" text-anchor="start" fill="#455362">Solid arrows denote stored references. The dashed arrow denotes an initialization dependency.</text>
+    <line x1="48" y1="171" x2="1392" y2="171" stroke="#8D9895" stroke-width="1.7" />
+    <line x1="48" y1="739" x2="1392" y2="739" stroke="#202832" stroke-width="1.9" />
+    <rect x="48" y="761" width="25" height="20" rx="4" fill="#BCE2D1" stroke="#202832" stroke-width="1.9" />
+    <text x="86" y="778" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">Input and audio</text>
+    <rect x="389" y="761" width="25" height="20" rx="4" fill="#D9C9ED" stroke="#202832" stroke-width="1.9" />
+    <text x="427" y="778" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">ASCII conversion</text>
+    <rect x="730" y="761" width="25" height="20" rx="4" fill="#EDCADC" stroke="#202832" stroke-width="1.9" />
+    <text x="768" y="778" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">Code display</text>
+    <rect x="1071" y="761" width="25" height="20" rx="4" fill="#DDE6AD" stroke="#202832" stroke-width="1.9" />
+    <text x="1109" y="778" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">Composition and output</text>
+  </g>
+  <g id="groups" />
+  <g id="connections">
+    <polyline points="504,286 875,286" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#open)" />
+    <polyline points="278,411 278,508" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#open)" />
+    <polyline points="504,603 875,603" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#open)" />
+    <polyline points="504,540 713,540 713,368 875,368" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#open)" stroke-dasharray="8 7" />
+  </g>
+  <g id="nodes">
+    <g>
+      <rect x="76" y="211" width="428" height="200" rx="12" fill="white" stroke="#202832" stroke-width="2.5" />
+      <rect x="77.5" y="212.5" width="425" height="44" rx="10" fill="#EDCADC" stroke="none" stroke-width="2.5" />
+      <rect x="77.5" y="244" width="425" height="14" rx="0" fill="#EDCADC" stroke="none" stroke-width="2.5" />
+      <line x1="76" y1="258" x2="504" y2="258" stroke="#202832" stroke-width="2" />
+      <text x="93" y="243" font-family="DejaVu Sans Mono, monospace" font-size="23" font-weight="700" text-anchor="start" fill="#202832">Editor</text>
+      <text x="93" y="290" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">sources: dict[str, Source]</text>
+      <text x="93" y="318" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">excerpt: Excerpt</text>
+      <text x="93" y="346" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">last_view: tuple | None</text>
+      <line x1="76" y1="358" x2="504" y2="358" stroke="#89938F" stroke-width="1.4" />
+      <text x="93" y="385" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="480" text-anchor="start" fill="#455362">set_cue(index)  ·  frame(number)</text>
+    </g>
+    <g>
+      <rect x="875" y="211" width="464" height="198" rx="12" fill="white" stroke="#202832" stroke-width="2.5" />
+      <rect x="876.5" y="212.5" width="461" height="44" rx="10" fill="#EDCADC" stroke="none" stroke-width="2.5" />
+      <rect x="876.5" y="244" width="461" height="14" rx="0" fill="#EDCADC" stroke="none" stroke-width="2.5" />
+      <line x1="875" y1="258" x2="1339" y2="258" stroke="#202832" stroke-width="2" />
+      <text x="892" y="243" font-family="DejaVu Sans Mono, monospace" font-size="23" font-weight="700" text-anchor="start" fill="#202832">Source</text>
+      <text x="892" y="290" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">text  ·  styles  ·  defs</text>
+      <line x1="875" y1="302" x2="1339" y2="302" stroke="#89938F" stroke-width="1.4" />
+      <text x="892" y="329" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="480" text-anchor="start" fill="#455362">scope(number)</text>
+    </g>
+    <g>
+      <rect x="76" y="508" width="428" height="193" rx="12" fill="white" stroke="#202832" stroke-width="2.5" />
+      <rect x="77.5" y="509.5" width="425" height="44" rx="10" fill="#EDCADC" stroke="none" stroke-width="2.5" />
+      <rect x="77.5" y="541" width="425" height="14" rx="0" fill="#EDCADC" stroke="none" stroke-width="2.5" />
+      <line x1="76" y1="555" x2="504" y2="555" stroke="#202832" stroke-width="2" />
+      <text x="93" y="540" font-family="DejaVu Sans Mono, monospace" font-size="23" font-weight="700" text-anchor="start" fill="#202832">Excerpt</text>
+      <text x="93" y="587" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">cue  ·  positions  ·  stops</text>
+      <text x="93" y="615" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">sheet: PIL.Image</text>
+      <line x1="76" y1="627" x2="504" y2="627" stroke="#89938F" stroke-width="1.4" />
+      <text x="93" y="654" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="480" text-anchor="start" fill="#455362">window(step, elapsed)</text>
+    </g>
+    <g>
+      <rect x="875" y="508" width="464" height="193" rx="12" fill="white" stroke="#202832" stroke-width="2.5" />
+      <rect x="876.5" y="509.5" width="461" height="44" rx="10" fill="#EDCADC" stroke="none" stroke-width="2.5" />
+      <rect x="876.5" y="541" width="461" height="14" rx="0" fill="#EDCADC" stroke="none" stroke-width="2.5" />
+      <line x1="875" y1="555" x2="1339" y2="555" stroke="#202832" stroke-width="2" />
+      <text x="892" y="540" font-family="DejaVu Sans Mono, monospace" font-size="23" font-weight="700" text-anchor="start" fill="#202832">Cue</text>
+      <text x="892" y="587" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">frame: int</text>
+      <text x="892" y="615" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">lines: tuple</text>
+      <text x="892" y="643" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="440" text-anchor="start" fill="#202832">file: str</text>
+    </g>
+  </g>
+  <g id="labels">
+    <rect x="531.5" y="258" width="319" height="25" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="691" y="275" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="#455362">Two files used by the cue sheet</text>
+    <text x="526" y="309" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="600" text-anchor="start" fill="#202832">1</text>
+    <text x="848" y="309" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="600" text-anchor="start" fill="#202832">2</text>
+    <rect x="310.5" y="454" width="199" height="25" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="410" y="471" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="#455362">Active excerpt 0..1</text>
+    <rect x="583.5" y="573" width="207" height="25" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="687" y="590" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="#455362">References one cue</text>
+    <rect x="714.0" y="341" width="168" height="23" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="798" y="356" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="600" text-anchor="middle" fill="#455362">Constructor input</text>
+    <text x="890" y="728" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="450" text-anchor="start" fill="#455362">Cue is a frozen dataclass.</text>
+  </g>
+</svg>

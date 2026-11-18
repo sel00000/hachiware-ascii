@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1440" viewBox="0 0 1440 810" role="img" aria-labelledby="title desc" lang="ko">
+  <title id="title">코드 한 줄과 영상 한 프레임을 맞춘다</title>
+  <desc id="desc">시간 순서대로 위에서 아래로 읽는다. 실선은 호출이나 데이터 전송을, 점선은 반환을 뜻한다.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse" viewBox="-1 -1 13 12">
+      <path d="M0,0 L10,5 L0,10 z" fill="#202832" stroke="#202832" stroke-width="1.5" stroke-linejoin="round" />
+    </marker>
+    <marker id="open" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse" viewBox="-1 -1 13 12">
+      <path d="M1,0 L10,5 L1,10" fill="none" stroke="#202832" stroke-width="1.5" stroke-linejoin="round" />
+    </marker>
+  </defs>
+  <g id="page">
+    <rect x="0" y="0" width="1440" height="810" rx="0" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="48" y="46" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="17" font-weight="700" text-anchor="start" fill="#202832">하치와레 ASCII</text>
+    <text x="1392" y="46" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="19" font-weight="650" text-anchor="end" fill="#455362">시퀀스 다이어그램</text>
+    <text x="46" y="105" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="42" font-weight="740" text-anchor="start" fill="#202832">코드 한 줄과 영상 한 프레임을 맞춘다</text>
+    <text x="48" y="147" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="21" font-weight="450" text-anchor="start" fill="#455362">시간 순서대로 위에서 아래로 읽는다. 실선은 호출이나 데이터 전송을, 점선은 반환을 뜻한다.</text>
+    <line x1="48" y1="171" x2="1392" y2="171" stroke="#8D9895" stroke-width="1.7" />
+    <line x1="48" y1="739" x2="1392" y2="739" stroke="#202832" stroke-width="1.9" />
+    <rect x="48" y="761" width="25" height="20" rx="4" fill="#BCE2D1" stroke="#202832" stroke-width="1.9" />
+    <text x="86" y="778" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">입력·원본 음원</text>
+    <rect x="389" y="761" width="25" height="20" rx="4" fill="#D9C9ED" stroke="#202832" stroke-width="1.9" />
+    <text x="427" y="778" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">ASCII 변환</text>
+    <rect x="730" y="761" width="25" height="20" rx="4" fill="#EDCADC" stroke="#202832" stroke-width="1.9" />
+    <text x="768" y="778" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">코드 표시</text>
+    <rect x="1071" y="761" width="25" height="20" rx="4" fill="#DDE6AD" stroke="#202832" stroke-width="1.9" />
+    <text x="1109" y="778" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="18" font-weight="550" text-anchor="start" fill="#202832">합성·출력</text>
+  </g>
+  <g id="groups">
+    <rect x="72" y="322" width="1298" height="307" rx="9" fill="none" stroke="#202832" stroke-width="2" />
+  </g>
+  <g id="connections">
+    <polyline points="176,254 176,704" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7" />
+    <polyline points="537,254 537,704" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7" />
+    <polyline points="897,254 897,704" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7" />
+    <polyline points="1254,254 1254,704" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7" />
+    <polyline points="176,293 1254,293" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+    <polyline points="176,386 537,386" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+    <polyline points="537,441 897,441" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+    <polyline points="537,495 897,495" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+    <polyline points="537,549 176,549" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#open)" stroke-dasharray="8 7" />
+    <polyline points="176,603 1254,603" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+    <polyline points="176,664 1254,664" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" />
+    <polyline points="1254,708 176,708" fill="none" stroke="#202832" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#open)" stroke-dasharray="8 7" />
+  </g>
+  <g id="nodes">
+    <g>
+      <rect x="51" y="202" width="250" height="52" rx="12" fill="#DDE6AD" stroke="#202832" stroke-width="2.5" />
+      <text x="176.0" y="235.0" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="690" text-anchor="middle" fill="#202832">render()</text>
+    </g>
+    <g>
+      <rect x="412" y="202" width="250" height="52" rx="12" fill="#EDCADC" stroke="#202832" stroke-width="2.5" />
+      <text x="537.0" y="235.0" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="690" text-anchor="middle" fill="#202832">Editor</text>
+    </g>
+    <g>
+      <rect x="772" y="202" width="250" height="52" rx="12" fill="#EDCADC" stroke="#202832" stroke-width="2.5" />
+      <text x="897.0" y="235.0" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="690" text-anchor="middle" fill="#202832">Excerpt</text>
+    </g>
+    <g>
+      <rect x="1129" y="202" width="250" height="52" rx="12" fill="#DDE6AD" stroke="#202832" stroke-width="2.5" />
+      <text x="1254.0" y="235.0" font-family="DejaVu Sans Mono, monospace" font-size="22" font-weight="690" text-anchor="middle" fill="#202832">FFmpeg</text>
+    </g>
+    <rect x="72" y="322" width="270" height="35" rx="6" fill="#F0F2D8" stroke="#202832" stroke-width="1.7" />
+    <text x="86" y="346" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="640" text-anchor="start" fill="#202832">loop  n = 0 … 2700</text>
+  </g>
+  <g id="labels">
+    <rect x="561.5" y="268" width="307" height="24" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="715.0" y="284" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#455362">마스터 영상과 원본 오디오로 FFmpeg 시작</text>
+    <rect x="307.5" y="361" width="98" height="24" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="356.5" y="377" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#455362">frame(n)</text>
+    <rect x="629.0" y="416" width="176" height="24" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="717.0" y="432" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#455362">새 큐에서 Excerpt 생성</text>
+    <rect x="579.0" y="470" width="276" height="24" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="717.0" y="486" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#455362">키가 바뀌면 window(step, elapsed)</text>
+    <rect x="274.5" y="524" width="164" height="24" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="356.5" y="540" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#455362">코드 패널 이미지 반환</text>
+    <rect x="600.5" y="578" width="229" height="24" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="715.0" y="594" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#455362">프레임마다 RGB24 바이트 전송</text>
+    <rect x="657.0" y="639" width="116" height="24" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="715.0" y="655" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#455362">표준 입력 닫기</text>
+    <rect x="560.0" y="683" width="310" height="24" rx="4" fill="#FBFAF6" stroke="none" stroke-width="2.5" />
+    <text x="715.0" y="699" font-family="Noto Sans KR, Noto Sans CJK KR, Malgun Gothic, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#455362">인코더가 끝나면 render()가 출력 길이 확인</text>
+  </g>
+</svg>
