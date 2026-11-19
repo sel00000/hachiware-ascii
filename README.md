@@ -4,7 +4,7 @@
 
 Hachiware plays the guitar on the left. The Python lines that draw each scene scroll on the right. At 28.3 seconds the panel pauses for the clapping shot. Line 248 of `render.py` sets its framing. The film uses the original Korean soundtrack, including the song and dialogue. [Clapping shot in the source](render.py#L248)
 
-[![Video thumbnail for Hachiware sings in ASCII](https://i.ytimg.com/vi/brybTT7F2sg/maxresdefault.jpg)](https://youtu.be/brybTT7F2sg?si=imUgZBDhkl2_aS32)
+[![Hachiware plays guitar in ASCII on the left while the Python code scrolls on the right](docs/hachiware-preview.gif)](https://youtu.be/brybTT7F2sg?si=imUgZBDhkl2_aS32)
 
 ## Render the film
 

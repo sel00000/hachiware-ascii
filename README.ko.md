@@ -4,7 +4,7 @@
 
 하치와레가 기타를 치는 모습을 왼쪽 화면에 색색의 ASCII 문자로 그렸습니다. 오른쪽에서는 장면에 맞춰 파이썬 코드가 한 줄씩 내려갑니다. 28.3초에 박수 장면이 나오면 스크롤이 잠시 멈춥니다. 이 장면의 구도는 `render.py` 248번째 줄에서 정합니다. 노래와 대사는 한국어판 원본 그대로 들을 수 있습니다. [박수 장면의 코드](render.py#L248)
 
-[![하치와레의 혼잣말 ASCII 영상 미리보기](https://i.ytimg.com/vi/brybTT7F2sg/maxresdefault.jpg)](https://youtu.be/brybTT7F2sg?si=imUgZBDhkl2_aS32)
+[![왼쪽에서 ASCII 하치와레가 기타를 치고 오른쪽에서 파이썬 코드가 스크롤되는 모습](docs/hachiware-preview.gif)](https://youtu.be/brybTT7F2sg?si=imUgZBDhkl2_aS32)
 
 ## 영상 만들기
 
